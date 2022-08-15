@@ -37,8 +37,9 @@ namespace CopyScreenTextPlugin
     public class MyGuiScreenTextPostfix
     {
         private static MyGuiControlButton copyBtn;
+
         [HarmonyPostfix]
-        public static void Postfix(MyGuiScreenText __instance, ref bool ___m_enableEdit, MyGuiControlButton ___m_okButton)
+        public static void Postfix(MyGuiScreenText __instance, MyGuiControlButton ___m_okButton)
         {
             if (__instance is MyGuiScreenTextPanel)
                 return;
