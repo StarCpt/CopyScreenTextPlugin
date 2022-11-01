@@ -1,14 +1,12 @@
 ﻿using HarmonyLib;
 using Sandbox.Game.Gui;
 using Sandbox.Graphics.GUI;
-using Sandbox.ModAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using VRage.Game.Components;
 using VRage.Plugins;
 using VRage.Utils;
 using VRageMath;
